@@ -4,20 +4,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
 
         <style>
             div {
-                border-style: solid;
-                border-color: black;
+                
                 padding: 3px;
-                margin: 3px;
+                margin: 0px;
+            }
+
+            body {
+                margin: 0px;
+                background-color:rgb(27, 27, 27);
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             }
 
             table {
                 border-style: solid;
                 padding: 2px;
                 margin: 3px;
+            }
+            ul {
+                border-style: solid;
+                border-color: black;
+                margin: 0px;
             }
 
         </style>
@@ -56,13 +67,14 @@
                         <li><a class="dropdown-item" href="toyotapickup.html">Home</a></li>
                         <li><a class="dropdown-item" href="about.html">About</a></li>
                         <li><a class="dropdown-item" href="request.html">Request</a></li>
-                      </ul>
+                    </ul>
                   </li>
                 </ul>
           </nav>
         
     
         <div>
+            <ul>
             <img class="pictruck" height="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyXQe34-SRU-ittc_T__OaBLOlaJQLyVGA1Q&usqp=CAU">
             <button class="btn btn-primary">94'</button>
 
@@ -80,6 +92,7 @@
 
             <img class="pichilux" height="200px" width="300px" src="https://www.motortrend.com/uploads/sites/11/2019/09/1987-toyota-pickup-truck-side.jpg?fit=around%7C875:492">
             <button class="btn btn-secondary">87'</button>
+            </ul>
         </div>
 
         <table class="table table-dark table-bordered table-hover">
